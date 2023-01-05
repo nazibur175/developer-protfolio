@@ -152,6 +152,13 @@ main {
 }
 
 /* Resume styles */
+.section-title{
+  margin-top: 130px;
+  margin-bottom: 113px;
+}
+.resume-button{
+  margin-bottom:70px;
+}
 .resume-content {
   display: flex;
   gap:24px ;
@@ -159,6 +166,11 @@ main {
 .resume-item{
   margin-top: 30px;
   margin-bottom:30px;
+}
+.resume-title{
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
 }
 .resume .title {
   font-weight: 700;
@@ -184,4 +196,27 @@ main {
 .resume-button{
   margin-top: 50px;
   text-align: center;
+}
+
+/* contact styles */
+.contact{
+  display: flex;
+  gap: 100px;
+  background-color: #FFF8F3;
+  padding: 130px 200px;
+}
+.contact .section-title{
+  text-align: left;
+  
+}
+.contact input[type="text"],input[type="email"],textarea{
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding:18px 30px;
+
+}
+.contact a{
+  text-decoration: none;
+
 }
